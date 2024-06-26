@@ -3,7 +3,8 @@ import pandas as pd
 import pickle
 
 # Load the pickled Random Forest model
-with open('creditEUCard_fraudDetection.pkl', 'rb') as file:
+file_path = os.path.join(os.path.dirname(__file__), 'models', 'creditEUCard_fraudDetection.pkl')
+with open(file_path, 'rb') as file:
     model = pickle.load(file)
 
 # Define the expected number of features
