@@ -48,3 +48,5 @@ urllib3==2.2.2
 validators==0.28.3
 watchdog==4.0.1
 zipp==3.19.2
+scipy==1.11.4
+numpy==1.21.6
