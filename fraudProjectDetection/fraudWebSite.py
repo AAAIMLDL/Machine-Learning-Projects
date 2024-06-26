@@ -4,7 +4,7 @@ import pickle
 import os
 
 # Load the pickled Random Forest model
-file_path = os.path.join(os.path.dirname(__file__), 'models', 'creditEUCard_fraudDetection.pkl')
+file_path = os.path.join(os.path.dirname(__file__), 'creditEUCard_fraudDetection.pkl')
 with open(file_path, 'rb') as file:
     model = pickle.load(file)
 
