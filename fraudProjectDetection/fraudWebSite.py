@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import pickle
+import os
 
 # Load the pickled Random Forest model
 file_path = os.path.join(os.path.dirname(__file__), 'models', 'creditEUCard_fraudDetection.pkl')
